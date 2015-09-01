@@ -132,16 +132,6 @@ td { vertical-align: top; line-height: normal;}
 	list-style-image: none;
 }
 
-@font-face {
-	font-family: '';
-	src: url('../font/.eot');
-	src: url('../font/.eot?#iefix') format('embedded-opentype'),
-		 url('../font/.woff') format('woff'),
-		 url('../font/.ttf') format('truetype'),
-		 url('../font/.svg#') format('svg');
-	font-style: normal;
-	font-weight: normal;
-}
 
 html,body{margin: 0;padding: 0;height: 100%; background: #fff;}
 .clr{clear: both;}
@@ -166,6 +156,19 @@ h2{
 span{
 	color: #0265b4;
 }
+a{
+	color: #0265b4;
+	font:normal 15px/32px 'Arial';
+	text-decoration: none;
+	border-bottom: 1px dashed;
+}
+a:hover{
+	border: 0;
+}
+a:active{
+	border: 0;
+	color: #000;
+}
 .main-header:after,
 .main-top:after,
 .info:after,
@@ -180,9 +183,9 @@ span{
 .line-top{height: 100px; overflow: hidden;}
 .logo{width: 240px;float: left;margin-right: 360px;}
 .logo img{
-	margin-top: 12px;
+	margin-top: 20px;
 }
-.phone{width: 120px;float: left; margin-right: 70px; padding-top: 12px;}
+.phone{width: 120px;float: left; margin-right: 70px; padding-top: 24px;}
 .phone p{
 	color: #000;
 	font:normal 14px/21px 'Arial';
@@ -195,7 +198,7 @@ span{
 	text-decoration: none;
 	border-bottom: 1px dashed;
 }
-.adres{width: 170px;float: left; padding-top: 12px;}
+.adres{width: 170px;float: left; padding-top: 23px;}
 .adres p{
 	margin:0;
 }
@@ -226,6 +229,8 @@ width: 100px;
 	width: 120px;
 	text-align:left;
 	margin-right: 44px;
+	text-decoration: none;
+	border: 0;
 }
 .partners a:last-child{
 	margin-right: 0;
@@ -252,14 +257,40 @@ width: 100px;
 /**/
 /**/
 .services{
-	width: 100%;
+	width: 910px;
 	background: #f4f4f4;
 	margin: 40px auto;
+	padding: 25px;
+}
+.services .fleft{
+	width: 280px;
+}
+.services-left-bottom {
+    margin-top: 295px;
 }
 
 .services-left-bottom p{
 	margin: 0;
 }
+.oplata {
+    margin-top: 35px;
+}
+.services-left-bottom .oplata p span{
+	color:#aaa;
+}
+.services-left-bottom .oplata img{
+ margin:10px 20px 0 0;
+}
+.services p{
+	margin: 0;
+}
+.services table{
+	width: 100%;
+}
+.services table td:last-child{
+	text-align: right;
+}
+
 /**/
 
 /**/
